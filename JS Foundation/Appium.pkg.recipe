@@ -10,7 +10,7 @@
 	<string>com.github.blackthroat.pkg.Appium</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
+		<key>PKG_ID</key>
 		<string>io.appium.desktop</string>
 		<key>NAME</key>
 		<string>Appium</string>
@@ -20,16 +20,70 @@
 	<key>ParentRecipe</key>
 	<string>com.github.blackthroat.download.Appium</string>
 	<key>Process</key>
-	<array>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>app_path</key>
-				<string>%RECIPE_CACHE_DIR%/%NAME%/Appium.app</string>
-			</dict>
-			<key>Processor</key>
-			<string>AppPkgCreator</string>
+ 	<array>
+ 		<dict>
+ 			<key>Processor</key>
+ 			<string>PkgRootCreator</string>
+ 			<key>Arguments</key>
+ 			<dict>
+ 				<key>pkgroot</key>
+ 				<string>%RECIPE_CACHE_DIR%/%NAME%</string>
+ 				<key>pkgdirs</key>
+ 				<dict>
+ 					<key>Applications</key>
+ 					<string>0775</string>
+ 				</dict>
+ 			</dict>
+ 		</dict>
+ 		<dict>
+ 			<key>Arguments</key>
+ 			<dict>
+ 			 	<key>destination_path</key>
+				<string>%pkgroot%/Applications/Appium.app</string>
+				<key>source_path</key>
+				<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg/Appium.app</string>
+ 			</dict>
+ 			<key>Processor</key>
+			<string>Copier</string>
 		</dict>
-	</array>
-</dict>
-</plist>
+		<dict>
+ 		 		<key>Arguments</key>
+ 				<dict>
+					<key>dmg_path</key>
+					<string>%RECIPE_CACHE_DIR%/downloads/%NAME%.dmg</string>
+				</dict>
+				<key>Processor</key>
+				<string>AppDmgVersioner</string>
+ 		</dict>
+ 		<dict>
+ 			<key>Processor</key>
+ 			<string>PkgCreator</string>
+ 			<key>Arguments</key>
+ 			<dict>
+ 				<key>pkgname</key>
+ 				<string>%NAME%-%version%</string>
+ 				<key>pkg_request</key>
+ 				<dict>
+ 					<key>pkgdir</key>
+ 					<string>%RECIPE_CACHE_DIR%</string>
+ 					<key>id</key>
+ 					<string>%PKG_ID%</string>
+ 					<key>options</key>
+ 					<string>purge_ds_store</string>
+ 					<key>chown</key>
+ 					<array>
+ 						<dict>
+ 							<key>path</key>
+ 							<string>Applications</string>
+ 							<key>user</key>
+ 							<string>root</string>
+ 							<key>group</key>
+ 							<string>admin</string>
+ 						</dict>
+ 					</array>
+ 				</dict>
+ 			</dict>
+ 		</dict>
+ 	</array>
+ </dict>
+ </plist>
