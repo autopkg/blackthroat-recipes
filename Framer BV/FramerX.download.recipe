@@ -13,7 +13,7 @@
 		<key>DOWNLOAD_URL</key>
 		<string>https://dl.devmate.com/com.framer.x/FramerX.zip</string>
 		<key>NAME</key>
-		<string>Framer X</string>
+		<string>FramerX</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
