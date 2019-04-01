@@ -30,6 +30,8 @@
 			<string>KNIME GmbH</string>
 			<key>display_name</key>
 			<string>KNIME Analytics Platform</string>
+			<key>minimum_os_version</key>
+			<string>10.11</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>preinstall_script</key>
