@@ -53,7 +53,7 @@
 				<key>input_path</key>
 				<string>%RECIPE_CACHE_DIR%/%NAME%/Pock.app</string>
 				<key>requirement</key>
-				<string>identifier "com.pigigaldi.pock" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Pierluigi Galdi (GKK47P67NF)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+				<string>anchor apple generic and identifier "com.pigigaldi.pock" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "788D9WZ9Z3")</string>
 			</dict>
 			<key>Processor</key>
 			<string>CodeSignatureVerifier</string>
