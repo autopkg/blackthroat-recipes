@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://pock.pigigaldi.com/download.php?file=pock_0_4_6_eket.zip</string>
+		<string>https://pock.dev/download.php?file=pock_0_6.zip</string>
 		<key>NAME</key>
 		<string>Pock</string>
 	</dict>
