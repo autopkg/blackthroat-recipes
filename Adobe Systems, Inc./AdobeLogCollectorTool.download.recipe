@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>http://download.adobe.com/pub/adobe/SupportTools/LogCollector/mac/LogCollectorTool.dmg</string>
+		<string>https://download.adobe.com/pub/adobe/SupportTools/LogCollector/mac/LogCollectorTool.dmg</string>
 		<key>NAME</key>
 		<string>AdobeLogCollectorTool</string>
 	</dict>
