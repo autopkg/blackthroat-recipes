@@ -42,6 +42,21 @@
 	<key>Process</key>
 	<array>
 		<dict>
+		    <key>Arguments</key>
+		    <dict>
+			<key>input_path</key>
+			<string>%pathname%</string>
+			<key>expected_authority_names</key>
+			<array>
+			    <string>Developer ID Installer: DBeaver Corporation (42B6MDKMW8)</string>
+			    <string>Developer ID Certification Authority</string>
+			    <string>Apple Root CA</string>
+			</array>
+		    </dict>
+		    <key>Processor</key>
+		    <string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
 			<key>Arguments</key>
 			<dict>
 				<key>pkg_path</key>
