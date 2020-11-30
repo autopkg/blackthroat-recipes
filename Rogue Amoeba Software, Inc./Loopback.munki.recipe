@@ -26,6 +26,8 @@
 			<string>Suddenly, it's easy to pass audio between applications on your Mac. Create virtual audio devices to take the sound from applications and audio input devices, then send it to audio processing applications. Loopback gives you the power of a high-end studio mixing board, right inside your computer!</string>
 			<key>developer</key>
 			<string>Rogue Amoeba Software, Inc.</string>
+			<key>minimum_os_version</key>
+			<string>10.13</string>
 			<key>display_name</key>
 			<string>Loopback</string>
 			<key>name</key>
