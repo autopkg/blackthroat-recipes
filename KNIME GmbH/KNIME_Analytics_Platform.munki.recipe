@@ -16,10 +16,6 @@
 		<string>KNIME_Analytics_Platform</string>
 		<key>pkginfo</key>
 		<dict>
-			<key>blocking_applications</key>
-			<array>
-				<string>Knime</string>
-			</array>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
