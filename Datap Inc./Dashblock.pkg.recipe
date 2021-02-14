@@ -10,8 +10,6 @@
 	<string>com.github.blackthroat.pkg.Dashblock</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>com.dashblock.desktop</string>
 		<key>NAME</key>
 		<string>Dashblock</string>
 	</dict>

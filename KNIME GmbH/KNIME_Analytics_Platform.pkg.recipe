@@ -10,8 +10,6 @@
 	<string>com.github.blackthroat.pkg.KNIME_Analytics_Platform</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>org.knime.product</string>
 		<key>NAME</key>
 		<string>KNIME_Analytics_Platform</string>
 	</dict>

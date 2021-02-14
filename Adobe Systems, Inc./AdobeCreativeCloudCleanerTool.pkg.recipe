@@ -10,8 +10,6 @@
 	<string>com.github.blackthroat.pkg.AdobeCreativeCloudCleanerTool</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>com.Adobe.Installers.AdobeCreativeCloudCleanerTool</string>
 		<key>NAME</key>
 		<string>AdobeCreativeCloudCleanerTool</string>
 	</dict>

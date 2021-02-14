@@ -10,8 +10,6 @@
 	<string>com.github.blackthroat.pkg.AdobeLogCollectorTool</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>com.Adobe.Installers.AdobeLogCollectorTool</string>
 		<key>NAME</key>
 		<string>AdobeLogCollectorTool</string>
 	</dict>
