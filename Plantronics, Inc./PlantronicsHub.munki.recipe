@@ -25,7 +25,7 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string> </string>
+			<string>Allows end-users to customize their settings and get visible status of their Plantronics audio device on their desktop.</string>
 			<key>developer</key>
 			<string>Plantronics, Inc.</string>
 			<key>display_name</key>
