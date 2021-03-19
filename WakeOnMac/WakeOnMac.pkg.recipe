@@ -10,8 +10,6 @@
 	<string>com.github.blackthroat.pkg.WakeOnMac</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>com.doogul.WakeOnMac</string>
 		<key>NAME</key>
 		<string>WakeOnMac</string>
 	</dict>

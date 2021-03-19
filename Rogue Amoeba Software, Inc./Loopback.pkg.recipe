@@ -10,8 +10,6 @@
 	<string>com.github.blackthroat.pkg.Loopback</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>com.rogueamoeba.Loopback</string>
 		<key>NAME</key>
 		<string>Loopback</string>
 	</dict>

@@ -10,8 +10,6 @@
 	<string>com.github.blackthroat.pkg.Enolsoft_PDF_Converter_with_OCR</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>com.enolsoft.pdfconverterocr</string>
 		<key>NAME</key>
 		<string>Enolsoft PDF Converter with OCR</string>
 	</dict>

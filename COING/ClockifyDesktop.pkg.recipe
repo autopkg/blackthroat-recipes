@@ -10,8 +10,6 @@
 	<string>com.github.blackthroat.pkg.ClockifyDesktop</string>
 	<key>Input</key>
 	<dict>
-		<key>BUNDLE_ID</key>
-		<string>coing.ClockifyDesktop</string>
 		<key>NAME</key>
 		<string>Clockify Desktop</string>
 	</dict>
