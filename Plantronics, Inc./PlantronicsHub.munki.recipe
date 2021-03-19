@@ -18,7 +18,7 @@
 		<dict>
 			<key>blocking_applications</key>
 			<array>
-				<string>Plantronics Hub Helper.app</string>
+				<string>Plantronics Hub.app</string>
 			</array>
 			<key>catalogs</key>
 			<array>
