@@ -36,6 +36,7 @@
 if [[ -x "/Applications/Loopback.app/Contents/Resources/aceinstaller" ]]; then
     "/Applications/Loopback.app/Contents/Resources/aceinstaller" install -s
 fi
+			</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
