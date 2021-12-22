@@ -31,6 +31,8 @@
 			<string>Visicom Media Inc.</string>
 			<key>display_name</key>
 			<string>ManyCam</string>
+			<key>minimum_os_version</key>
+			<string>10.13</string>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>unattended_install</key>
