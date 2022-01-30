@@ -29,6 +29,8 @@
 			<key>developer</key>
 			<string>DEVGURU Co., Ltd.</string>
 			<key>display_name</key>
+			<key>minimum_os_version</key>
+			<string>10.11</string>
 			<string>EasyCanvas</string>
 			<key>name</key>
 			<string>%NAME%</string>
