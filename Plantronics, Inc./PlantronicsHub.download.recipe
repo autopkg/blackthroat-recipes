@@ -23,7 +23,7 @@
                 <key>filename</key>
                 <string>%NAME%.dmg</string>
                 <key>url</key>
-                <string>https://www.poly.com/content/dam/www/software/PlantronicsHubInstaller.dmg</string>
+                <string>https://downloads.poly.com/headsets/PlantronicsHubInstaller.dmg</string>
             </dict>
         </dict>
         <dict>
