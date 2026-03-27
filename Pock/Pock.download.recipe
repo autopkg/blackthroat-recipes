@@ -10,8 +10,6 @@
 	<string>com.github.blackthroat.download.Pock</string>
 	<key>Input</key>
 	<dict>
-		<key>DOWNLOAD_URL</key>
-		<string>https://pock.dev/download.php?file=pock_0_7_2.zip</string>
 		<key>NAME</key>
 		<string>Pock</string>
 	</dict>
@@ -22,10 +20,23 @@
 		<dict>
 			<key>Arguments</key>
 			<dict>
+				<key>re_pattern</key>
+				<string>href="./download\?file=(pock_[\d_]+\.zip)"</string>
+				<key>result_output_var_name</key>
+				<string>zipfile</string>
+				<key>url</key>
+				<string>https://pock.app/</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLTextSearcher</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
 				<key>filename</key>
 				<string>%NAME%.zip</string>
 				<key>url</key>
-				<string>%DOWNLOAD_URL%</string>
+				<string>https://pock.app/builds/%zipfile%</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
