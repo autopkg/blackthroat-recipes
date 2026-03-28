@@ -44,7 +44,7 @@ exit $?</string>
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.blackthroat.download.KNIME_Analytics_Platform</string>
+	<string>com.github.grahampugh.download.KNIME</string>
 	<key>Process</key>
 	<array>
 		<dict>
