@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://www.parsehub.com/static/client/parsehub.dmg</string>
+		<string>https://www.parsehub.com/static/client/ParseHub.dmg</string>
 		<key>NAME</key>
 		<string>ParseHub</string>
 	</dict>
@@ -33,6 +33,17 @@
 		<dict>
 			<key>Processor</key>
 			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/ParseHub.app</string>
+				<key>requirement</key>
+				<string>identifier "com.parsehub.client" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = Z7WNN5ZD4C</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
 		</dict>
 	</array>
 </dict>
