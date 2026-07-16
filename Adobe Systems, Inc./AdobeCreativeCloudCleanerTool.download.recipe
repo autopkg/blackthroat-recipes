@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://swupmf.adobe.com/webfeed/CleanerTool/mac/AdobeCreativeCloudCleanerTool.dmg</string>
+		<string>https://download.adobe.com/pub/adobe/SupportTools/Cleaner/mac/AdobeCreativeCloudCleanerTool.dmg</string>
 		<key>NAME</key>
 		<string>AdobeCreativeCloudCleanerTool</string>
 	</dict>
@@ -19,6 +19,15 @@
 	<string>1.0.0</string>
 	<key>Process</key>
 	<array>
+		<dict>
+			<key>Processor</key>
+			<string>DeprecationWarning</string>
+			<key>Arguments</key>
+			<dict>
+				<key>warning_message</key>
+				<string>This recipe is deprecated: Please transition to: https://github.com/autopkg/kevinmcox-recipes/tree/master/Adobe</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
