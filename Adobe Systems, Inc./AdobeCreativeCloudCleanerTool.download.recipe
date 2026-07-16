@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://download.adobe.com/pub/adobe/SupportTools/Cleaner/mac/AdobeCreativeCloudCleanerTool.dmg</string>
+		<string>https://swupmf.adobe.com/webfeed/CleanerTool/mac/AdobeCreativeCloudCleanerTool.dmg</string>
 		<key>NAME</key>
 		<string>AdobeCreativeCloudCleanerTool</string>
 	</dict>
